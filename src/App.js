@@ -1,8 +1,11 @@
 import './App.css';
+import "./styles/styles.css";
+import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <div className="App">
+    <div className="body">
+      <Navigation/>
     </div>
   );
 }
